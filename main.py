@@ -13,7 +13,6 @@ def main():
     clock = pygame.time.Clock()
     dt = 0.0
     player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
-    print(locals())
     while True:
         log_state()
         for event in pygame.event.get():
