@@ -11,3 +11,4 @@ venv/
 
 # json files
 game_state.jsonl
+game_events.jsonl
